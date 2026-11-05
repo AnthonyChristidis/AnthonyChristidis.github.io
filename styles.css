@@ -330,6 +330,20 @@ hr {
 
 .section:first-of-type { margin-top: 40px; }
 
+/* Groups several sections under one heading (e.g. Courses / Workshops). */
+.part-title {
+  font-size: clamp(1.5rem, 1.25rem + .8vw, 1.85rem);
+  color: var(--accent);
+  margin: 72px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 84px;
+}
+
+.page-title + .part-title { margin-top: 32px; }
+
+.part-title + .section { margin-top: 28px; }
+
 .section__title {
   font-size: 1.34rem;
   margin: 0 0 6px;
